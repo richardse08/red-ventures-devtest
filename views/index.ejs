@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html>
+    
+
+    <head>
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+        <link rel="stylesheet" type="text/css" href="/main.css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        <script src="script.js" type="text/javascript"></script>
+    
+        <!-- slick CDN -->
+        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css"/>
+        <script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
+    </head>
+
+
+    
+    
+    <body>
+
+
+    
+        <!-- Begin Full Page view -->
+        <div class="app">
+    
+            
+            
+                    <!-- FP banner -->
+            <div class="top-banner">
+                <div class="banner-contents float-right">
+                    <div class="banner-link float-left">Dealers and Distributors</div>
+                    <div class="banner-link float-left">Commercial Service</div>
+                    <img class="banner-icon float-left" src="/assets/action-commercial-icon.png">
+                </div>
+            </div>
+    
+            
+            
+            <!-- FP email -->
+            <div class="email-form display-none">
+                
+                <div class="email-header">
+                    <div class="close float-right"><i class="fa fa-2x fa-times" aria-hidden="true"></i></div>
+                    <div class="clear"></div>
+                    <div class="email-address">email here</div>
+                    <div class="dealer-name">Premium Pools &nbsp; Spas of Charlotte</div>
+                </div>
+                
+                
+                
+                <div class="dealer-name-inject">Fill out the form below and Premium Pools &nbsp; Spas of Charlotte will get in touch.</div>
+                
+                
+                <div class="body">
+                    
+                    
+                    <p class="text">First and last name</p>
+                    <div class="name-input">
+                        <input type="text">
+                    </div>
+                    
+                    
+                    <p>Phone number</p>
+                    <div class="phone-input">
+                        <input type="text">
+                    </div>
+                    
+                    
+                    <p>Email address</p>
+                    <div class="email-input">
+                        <input type="text">
+                    </div>
+                    
+                    
+                    <div>
+                        <p class="float-left">Comments or questions</p>
+                        <p2 class="float-right">optional</p2>
+                    </div>
+                    <div class="comments-input">
+                        <input type="text">
+                    </div>
+                    
+                    
+                    <div>
+                        <p class="float-left">Do you currently own a pool or spa?</p>
+                        <p2 class="float-right">optional</p2>
+                    </div>
+                    <div class="buttons">
+                        <div class="button button-yes float-left btn-selected">Yes</div>
+                        <div class="button button-no float-right">No</div>
+                    </div>
+                    
+                    
+                    <div class="divider"></div>
+                    
+                    
+                    <div class="send">
+                        <p class="float-left">Send my email</p>
+                        <img class="next-icon float-left" src="assets/next-arrow.png">
+                    </div>
+                    
+                </div>
+                
+                
+                
+                
+                <div class="email-footer">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.</p>
+                </div>
+            </div>
+            
+            
+            
+            <!-- Create pop-up menu for when user clicks finder icon -->
+            <div class="zipcode-query display-none">
+                <div class="finder-close"><i class="fa fa-2x fa-times" aria-hidden="true"></i></div>
+                <h>Enter Your Zipcode Below to Find Pool Pros in Your Area!</h>
+                <input id="zipcode" type="text" placeholder="Enter Zipcode">
+                <div class="search-btn" class="search-button">Search!</div>
+            </div>
+            
+            
+    
+            <!-- FP header -->
+            <div class="header">
+                
+                <img class="header-logo float-left" src="assets/pool-pros-logo.png">
+                
+                <div class="header-right float-right">
+                    
+                    <div class="nav float-left">
+                    
+    
+                        
+    
+                        <div class="dropdown">
+                        
+                            <div class="dropbtn highlight">
+                                <div class="nav-item float-left">Pools &amp; Spas</div>
+                                <img class="dropdown-icon" src="assets/next-arrow.png">
+                            </div>
+                            
+                            <div class="dropdown-content">
+    
+                                <div class="left-column float-left">
+                                    <div>All Products</div>
+                                    <div>Indoor Pools</div>
+                                    <div>Outdoor Pools</div>
+                                    <div>Concrete Pools</div>
+                                    <div>Fiberglass Pools</div>
+                                </div>
+    
+                                <div class="right-column float-left">
+                                    <div>Spas</div>
+                                    <div>Lighting</div>
+                                    <div>Water Features</div>
+                                    <div>Custom Features</div>
+                                    <div>Tile &amp; Mosaic</div>
+                                </div>
+    
+                            </div>
+                            
+                        </div> <!-- /dropdown -->
+                    
+                        
+    
+    
+                        <div class="dropdown">
+                        
+                            <div class="dropbtn highlight">
+                                <div class="nav-item float-left">Supplies</div>
+                                <img class="dropdown-icon" src="assets/next-arrow.png">
+                            </div>
+                            
+                            <div class="dropdown-content">
+                                
+                                <div class="left-column">
+                                    <div>Filters</div>
+                                    <div>Automatic Cleaners</div>
+                                </div>
+                                <div class="right-column">
+                                    <div>PH Balance Kits</div>
+                                    <div>Heaters</div>
+                                </div>
+                                
+                            </div>
+                        </div>
+    
+    
+    
+                    
+                        <div class="dropdown">
+                        
+                            <div class="dropbtn highlight">
+                                <div class="nav-item float-left">Resources</div>
+                                <img class="dropdown-icon" src="assets/next-arrow.png">
+                            </div>
+                            
+                            <div class="dropdown-content">
+                                
+                                <div class="left-column">
+                                    <div>Salt vs. Chlorine</div>
+                                    <div>Investment Information</div>
+                                    <div>Design Gallery</div>
+                                </div>
+                                <div class="right-column">
+                                    <div>Financing</div>
+                                    <div>Warranties</div>
+                                    <div>FAQ</div>
+                                </div>
+                                
+                            </div>
+                            
+                        </div>
+                    
+                        
+    
+    
+                        <div class="dropdown">
+                        
+                            <div class="dropbtn highlight">
+                                <div class="nav-item float-left">Services</div>
+                                <img class="dropdown-icon" src="assets/next-arrow.png">
+                            </div>
+                            
+                            <div class="dropdown-content">
+                                
+                                <div class="left-column">
+                                    <div>Pool Service</div>
+                                    <div>Spa Service</div>
+                                </div>
+                                <div class="right-column">
+                                    <div>Pool Installation</div>
+                                    <div>Spa Installation</div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        
+    
+                        
+    
+                    </div> <!-- /nav -->
+                    
+    
+    
+                    
+                    <div class="finder float-right">
+                        <img class="finder-icon float-left" src="assets/location-icon.png">
+                        <div class="finder-text">Find a Pool Pro</div>
+                    </div>
+                    
+                </div> <!-- /header-right -->
+                
+            </div> <!-- /header -->
+    
+    
+    
+            <!-- FP banner image -->
+            <div class="hero-image">
+    
+                <div class="hero-image-text">
+                    <div class="line-one">Is your pool ready for Summer?</div>
+                    <div class="line-two">A POOL PRO IS READY TO HELP!</div>
+                    <div class="divider"></div>
+                    <div class="line-three">Choose a pro that's close to your home from the list below.</div>
+                </div>
+            </div>
+    
+    
+    
+            <!-- FP 1, 2, 3 steps -->
+            <div class="steps">
+                <div class="step">
+                    <img class="image float-left" src="assets/1-circle.png">
+                    <div class="title float-right">CHOOSE A PRO</div>
+                    <div class="body float-right">Make sure your ZIP code is correct, then choose a pro from the list below.</div>
+                </div>
+                <div class="step">
+                    <img class="image float-left" src="assets/2-circle.png">
+                    <div class="title float-right">CONTACT A PRO</div>
+                    <div class="body float-right">Email a pro to make an appointment for pool &amp; spa services or installation.</div>
+                </div>
+                <div class="step">
+                    <img class="image float-left" src="assets/3-circle.png">
+                    <div class="title float-right">A PRO VISITS</div>
+                    <div class="body float-right">A pro will visit your home and assess your pool &amp; spa needs.</div>
+                </div>
+            </div>
+    
+    
+    
+            <!-- FP bubbles image -->
+            <div class="bubbles-banner">
+    
+                <!-- Look through sketch file and find out what this is supposed to be -->
+                <div class="search">
+                    
+                    
+                    <div class="wrapper-left">
+                        <div class="result-quantity float-left">
+                            <h></h>
+                        </div>
+    
+                        <div class="divider float-left"></div>
+    
+                        <div class="filter-results float-left">
+                            <h>Filter Results</h>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="wrapper-right">
+                        <div id="service" class="checkboxes checkbox-on float-left"></div>
+                        <div class="category">
+                            <h>Service</h>
+                        </div>
+    
+                        <div id="installation" class="checkboxes checkbox-on float-left"></div>
+                        <div class="category">
+                            <h>Installation</h>
+                        </div>
+    
+                        <div id="residential" class="checkboxes checkbox-on float-left"></div>
+                        <div class="category">
+                            <h>Residential</h>
+                        </div>
+    
+                        <div id="commercial" class="checkboxes checkbox-on float-left"></div>
+                        <div class="category">
+                            <h>Commercial</h>
+                        </div>
+                        
+                        <img class="tip-icon" src="assets/tool-tip-icon-filtering.png">
+                    </div>
+                    
+                </div>
+    
+    
+            </div> <!-- End bubbles-banner -->
+    
+            
+    
+            <!-- Append dealer info here -->
+            <div class="dealer-shell clearfix"></div>
+    
+    
+    
+            <!-- Create footer and footer content for FP-->
+            <div class="footer">
+                
+                <img class="footer-logo" src="assets/pool-pros-logo-footer.png">
+                
+                <div class="footer-content">
+                    <div class="footer-text">CONNECT WITH US</div>
+                    <img class="footer-icon-twitter" src="assets/twitter-icon.png">
+                    <img class="footer-icon-facebook" src="assets/facebook-icon.png">
+                    <img class="footer-icon-youtube" src="assets/youtube-icon.png">
+                </div>
+                
+            </div>
+    
+    
+    
+            <!-- Bottom page "banner" -->
+            <div class="bottom-banner">
+                <div class="bottom-banner-text">© 2017 Pool Pros &nbsp; &nbsp; | &nbsp; &nbsp; Privacy Policy &nbsp; &nbsp; | &nbsp; &nbsp; Terms and Conditions</div>
+            </div>
+    
+    
+        
+    
+       </div> <!-- Close Full Page app -->
+       
+       
+       
+       
+        <!-- ********************************    MOBILE    ******************************************** -->
+        <div class="mobile">
+            
+            
+            
+            <!-- Mobile banner -->
+            <div class="banner">
+                <img class="header-logo float-left" src="assets/pool-pros-logo.png">
+                <div class="finder float-left">
+                    <img class="finder-icon float-left" src="assets/location-icon.png">
+                    <div class="finder-text">FIND A PRO</div>
+                </div>
+                <img class="menu-icon float-left" src="assets/menu-icon-mobile.png">
+            </div>
+            
+            
+            
+            <!-- Mobile nav menu -->
+            <div class="mobile-nav display-none">
+                <div class="menu">
+                    <div class="nav-close float-right"><i class="fa fa-2x fa-times" aria-hidden="true"></i></div>
+                    <h>MENU</h>
+                </div>
+                
+                <div class="links">
+                    <div class="pools link float-left">Pools &amp; Spas</div>
+                    <img class="mobile-next float-left" src="assets/next-arrow.png">
+                    <div class="mobile-content">
+                        <div>All Products</div>
+                        <div>Indoor Pools</div>
+                        <div>Outdoor Pools</div>
+                        <div>Concrete Pools</div>
+                        <div>Fiberglass Pools</div>
+                        <div>Spas</div>
+                        <div>Lighting</div>
+                        <div>Water Features</div>
+                        <div>Custom Features</div>
+                        <div>Tile &amp; Mosaic</div>
+                    </div>
+                </div>
+                
+                <div class="links">
+                    <div class="supplies link float-left">Supplies</div>
+                    <img class="mobile-next float-left" src="assets/next-arrow.png">
+                    <div class="mobile-content">
+                        <div>Filters</div>
+                        <div>Automatic Cleaners</div>
+                        <div>PH Balance Kits</div>
+                        <div>Heaters</div>
+                    </div>
+                </div>
+                
+                <div class="links">
+                    <div class="resources link float-left">Resources</div>
+                    <img class="mobile-next float-left" src="assets/next-arrow.png">
+                    <div class="mobile-content">
+                        <div>Salt vs. Chlorine</div>
+                        <div>Investment Information</div>
+                        <div>Design Gallery</div>
+                        <div>Financing</div>
+                        <div>Warranties</div>
+                        <div>FAQ</div>
+                    </div>
+                </div>
+                
+                <div class="links">
+                    <div class="services link float-left">Services</div>
+                    <img class="mobile-next float-left" src="assets/next-arrow.png">
+                    <div class="mobile-content">
+                        <div>Pool Service</div>
+                        <div>Spa Service</div>
+                        <div>Pool Installation</div>
+                        <div>Spa Installation</div>
+                    </div>
+                </div>
+                
+            </div>
+            
+            
+            
+            <!-- Create pop-up menu for when user clicks finder icon -->
+            <div class="zipcode-query display-none">
+                <div class="finder-close"><i class="fa fa-times" aria-hidden="true"></i></div>
+                <h>Enter Your Zipcode Below to Find Pool Pros in Your Area!</h>
+                <input id="zipcode" type="text" pattern="[0-9]*">
+                <div class="search-btn" class="search-button">Search!</div>
+            </div>
+            
+            
+            
+            <!-- Mobile hero background image -->
+            <div class="hero-image">
+                <div class="hero-image-text">
+                    <div class="line-one">Is your pool ready for Summer?</div>
+                    <div class="line-two">A POOL PRO IS READY TO HELP!</div>
+                    <div class="divider"></div>
+                    <div class="line-three">Choose a pro that's close to your home from the list below.</div>
+                </div>
+            </div>
+            
+            
+            
+            <!-- Mobile email -->
+            <div class="email-form display-none">
+                
+                <div class="email-header">
+                    <div class="close"><i class="fa fa-2x fa-times" aria-hidden="true"></i></div>
+                    <div class="clear"></div>
+                    <div class="email-address">email here</div>
+                    <div class="dealer-name">Premium Pools &amp; Spas of Charlotte</div>
+                </div>
+                
+                <div class="dealer-name-inject">Fill out the form below and Premium Pools &amp; Spas of Charlotte will get in touch.</div>
+                
+                <div class="body">
+                    
+                    <p class="text">First and last name</p>
+                    <div class="name-input">
+                        <input type="text">
+                    </div>
+                    
+                    <p>Phone number</p>
+                    <div class="phone-input">
+                        <input type="text">
+                    </div>
+                    
+                    <p>Zipcode</p>
+                    <div class="zipcode-input">
+                        <input type="text">
+                    </div>
+                    
+                    <p>Email address</p>
+                    <div class="email-input">
+                        <input type="text">
+                    </div>
+                    
+                    <div>
+                        <p class="float-left">Comments or questions</p>
+                        <p2 class="float-right">optional</p2>
+                    </div>
+                    
+                    <div class="comments-input">
+                        <input type="text">
+                    </div>
+                    
+                    <div>
+                        <p class="float-left">Do you currently own a pool or spa?</p>
+                        <p2 class="float-right">optional</p2>
+                    </div>
+                    
+                    <div class="buttons-mobile">
+                        <div id="yes" class="button-mobile button-yes-mobile float-left"></div>
+                        <p class="float-left">Yes</p>
+                        <div id="no" class="button-mobile button-no-mobile float-left"></div>
+                        <p class="float-left">No</p>
+                        <div class="clearfix"></div>
+                    </div>
+                    
+                    <div class="divider"></div>
+                    
+                    <div class="send">
+                        <p class="float-left">Send!</p>
+                        <img class="next-icon float-left" src="assets/next-arrow.png">
+                    </div>
+                    
+                </div>
+                
+            </div>
+            
+    
+                    
+            <!-- Mobile 1,2,3 graphic -->
+            <div class="steps">
+                
+                <div class="step float-left">
+                    <img class="image float-left" src="assets/1-circle.png">
+                    <div class="title float-right">CHOOSE A PRO</div>
+                    <div class="body float-right">Make sure your ZIP code is correct, then choose a pro from the list below.</div>
+                </div>
+                
+                <div class="step float-left">
+                    <img class="image float-left" src="assets/2-circle.png">
+                    <div class="title float-right">CONTACT A PRO</div>
+                    <div class="body float-right">Email a pro to make an appointment for pool &amp; spa services or installation.</div>
+                </div>
+                
+                <div class="step float-left">
+                    <img class="image float-left" src="assets/3-circle.png">
+                    <div class="title float-right">A PRO VISITS</div>
+                    <div class="body float-right ">A pro will visit your home and assess your pool &amp; spa needs.</div>
+                </div>
+                
+            </div>
+            
+            
+            
+            <!-- Mobile bubbles -->
+            <div class="bubbles-banner"></div>
+            
+            
+            
+            <!-- Mobile search to filter search results -->
+            <div class="search">
+                
+                <div class="mobile-search-row">
+                    
+                    <div class="result-quantity float-left">
+                    <h></h>
+                    </div>
+    
+                    <div class="filter-results float-left">
+                        <h>Filter Results</h>
+                    </div>
+    
+                    <div id="mobile-drop" class="dropdown float-left">
+                        <i class="fa fa-caret-down" aria-hidden="true"></i>
+                    </div>
+                    
+                </div>
+                
+                <div class="clearfix"></div>
+                
+                <div class="checkbox-shell display-none float-left">
+                
+                    <div id="service" class="checkboxes checkbox-on float-left"></div>
+                    <div class="category">
+                    <h>Service</h>
+                    </div>
+                    <div class="clearfix"></div>
+    
+                    <div id="service" class="checkboxes checkbox-on float-left"></div>
+                    <div class="category">
+                    <h>Installation</h>
+                    </div>
+                    <div class="clearfix"></div>
+    
+                    <div id="service" class="checkboxes checkbox-on float-left"></div>
+                    <div class="category">
+                    <h>Residential</h>
+                    </div>
+                    <div class="clearfix"></div>
+    
+                    <div id="service" class="checkboxes checkbox-on float-left"></div>
+                    <div class="category">
+                    <h>Commercial</h>
+                    </div>
+                    <img class="tip-icon float-left" src="assets/tool-tip-icon-filtering.png">
+                    <div class="clearfix"></div>
+                    
+                </div>
+                
+            </div>
+            
+            
+            
+            <!-- Mobile dealer div to hold dealers when they populate -->
+            <div class="dealer-shell clearfix"></div>
+            
+            
+            
+            <!-- Mobile footer -->
+            <div class="footer">
+                <img class="footer-logo" src="assets/pool-pros-logo-footer.png">
+                <div class="footer-content">
+                    <div class="footer-text float-left">CONNECT WITH US</div>
+                    <img class="footer-icon-twitter float-left" src="assets/twitter-icon.png">
+                    <img class="footer-icon-facebook float-left" src="assets/facebook-icon.png">
+                    <img class="footer-icon-youtube float-left" src="assets/youtube-icon.png">
+                </div>
+            </div>
+            
+            
+            
+            <!-- Mobile footer banner -->
+            <div class="top-banner">
+                <div class="banner-contents float-right">
+                    <div class="banner-link float-left">Dealers and Distributors &nbsp; &nbsp; | &nbsp; &nbsp; Commercial Service</div>
+                </div>
+            </div>
+            
+            
+            
+            <!-- 2nd half of mobile footer banner -->
+            <div class="bottom-banner">
+                <div class="divider"></div>
+                <div class="bottom-banner-text">© 2017 Pool Pros &nbsp; &nbsp; | &nbsp; &nbsp; Privacy Policy &nbsp; &nbsp; | &nbsp; &nbsp; Terms and Conditions</div>
+            </div>
+            
+            
+            
+            
+        </div> <!-- End mobile -->
+    
+    
+    </body>
+
+
+
+
+</html>
