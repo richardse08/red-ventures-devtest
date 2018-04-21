@@ -152,6 +152,7 @@ body {
     font-family: "Open Sans";
     font-size: 12px;
     padding-top: 5px;
+    cursor: pointer;
 }
 
 .app .email-form .body .buttons .button-yes {
@@ -180,6 +181,7 @@ body {
 
 .app .email-form .body .send {
     margin: 0px 0px 0px 0px;
+    cursor: pointer;
 }
 
 .app .email-form .body .send p {
@@ -429,7 +431,7 @@ body {
 }
 
 .app .zipcode-query {
-    background: rgba(245, 245, 245, 0.8);
+    background: rgba(245, 245, 245, 0.9);
     color: rgb(17, 72, 150);
     border-radius: 5px;
     height: 250px;
@@ -458,6 +460,10 @@ body {
     padding: 10px;
     color: rgb(255, 255, 255);
 	margin: 10% 0px 25px 0px;
+}
+
+.app #zipcode {
+    font-size: 20px;
 }
 
 .app .search-btn {
@@ -1109,6 +1115,10 @@ body {
 	margin: 10% 0px 25px 0px;
     font-size: 30px;
     text-align: center;
+}
+
+.mobile #zipcode {
+    font-size: 20px;
 }
 
 .mobile .search-btn {
